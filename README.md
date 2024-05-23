@@ -16,7 +16,7 @@ Welcome to the **Stream Mind AI Powered Movie Platform**! This project is a movi
 
 Here is an example image:
 
-![Example Image]()
+![Example Image](https://github.com/Ayush-Sonkar/stream-mind/blob/main/Screenshot%202024-05-23%20125938.png)
 
 ## More Information
 
