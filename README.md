@@ -13,6 +13,14 @@ Welcome to the **Stream Mind AI Powered Movie Platform**! This project is a movi
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
+
+Here is an example image:
+
+![Example Image]()
+
+## More Information
+
+Some more details about the project.
 ## About
 Stream Mind is an AI-powered movie platform designed to provide users with an engaging and interactive way to discover and explore movies. The application fetches movie data from The Movie Database (TMDb) API, offering a wide range of features including search functionality, movie details, and personalized recommendations.
 
