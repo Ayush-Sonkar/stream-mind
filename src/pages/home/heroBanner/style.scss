@@ -1,0 +1,111 @@
+@import "../../../mixins.scss";
+
+.heroBanner {
+    width: 100%;
+    height: 450px;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    position: relative;
+    @include md {
+        height: 700px;
+    }
+    .backdrop-img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.6;
+        overflow: hidden;
+        .lazy-load-image-background {
+            width: 100%;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+    .opacity-layer {
+        width: 100%;
+        height: 250px;
+        background: linear-gradient(
+            180deg,
+            rgba(172, 132, 241, 0) 0%,
+            #3d028a 79.17%
+        );
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .heroBannerContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        text-align: center;
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+        .title {
+            font-family: "Jersey 25", sans-serif;
+            font-weight: 400;
+            font-size: 70px;
+            font-style: normal;
+            @include md {
+                margin-bottom: 0;
+                font-size: 90px;
+            }
+        }
+        .subTitle {
+            font-family: "Jersey 25", sans-serif;
+            font-size: 40px;
+            font-weight: 400;
+            margin-top: 0px;
+            margin-bottom: 40px;
+            @include md {
+                font-size: 60px;
+            }
+        }
+        .searchInput {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            input {
+                width: calc(100% - 100px);
+                height: 50px;
+                background-color: rgb(255, 255, 253);
+                outline: 0;
+                border: 0;
+                border-radius: 5px 0 0 5px;
+                padding: 0 15px;
+                font-size: 16px;
+                @include md {
+                    width: calc(100% - 150px);
+                    height: 60px;
+                    font-size: 20px;
+                    padding: 0 30px;
+                }
+            }
+            button {
+                width: 100px;
+                height: 50px;
+                background: var(--gradient);
+                color: white;
+                outline: 0;
+                border: 0;
+                border-radius: 0 5px 5px 0;
+                font-size: 18px;
+                cursor: pointer;
+                @include md {
+                    width: 150px;
+                    height: 60px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
