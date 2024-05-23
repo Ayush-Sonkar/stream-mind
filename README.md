@@ -84,7 +84,8 @@ stream-mind-ai/
 
 - **assets**: Static assets like images and icons.
 - **components**: Reusable React components.
-- **pages**: React components for different pages.
+- **pages**: React components for different pages.![Uploading Screenshot 2024-05-23 130007.png…]()
+
 - **services**: API service functions.
 - **styles**: SASS stylesheets.
 
