@@ -27,7 +27,7 @@ To get started with the Stream Mind AI Powered Movie Platform, follow these step
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/stream-mind-ai.git
+   git clone https://github.com/Ayush-Sonkar/stream-mind.git
    cd stream-mind-ai
    ```
 
